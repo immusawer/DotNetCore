@@ -1,0 +1,6 @@
+@TestNetCore_HostAddress = http://localhost:5241
+
+GET {{TestNetCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
